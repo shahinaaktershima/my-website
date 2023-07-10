@@ -15,20 +15,84 @@
     font-size: 60px;
     font-weight: 1000;
 }
-.banner-content >p{
+.banner-discription{
     color:rgb(92, 69, 221);
 }
 .btn{
-    padding: 20px 25px;
+    padding: 15px 30px;
     color: white;
     background-color: rgb(247, 28, 65);
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 20px;
+    margin-top: 10px;
 }
 .banner-img{
     width: 665px;
     height: 800px;
     margin-left: 50px;
     padding: 50px 150px 0px 20px;
+}
+/* our featured flowers section */
+.flower-content{
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+}
+.flower-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.flower-image{
+    display: flex;
+    width: 1450px;
+    margin: 0 auto;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.flower-img-rose{
+    padding-top: 40px;
+    padding-left: 25px;
+    height:360px ;
+    width: 300px;
+}
+.rose,.lotus,.white-rose{
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+.flower{
+    height: 400px;
+    width: 350px;
+
+}
+.flower-img-lotus{
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 350px;
+}
+.flower-img-white-rose{
+    height: 400px;
+    padding-left: 30px;
+    
+}
+.rose{
+    background-color: rgb(233, 185, 212);
+}
+.lotus{
+    background-color: rgb(207, 229, 229);
+}
+.white-rose{
+    background-color: antiquewhite;
+}
+.flower-box{
+    text-align: center;
+}
+.flower-name{ 
+    font-size: 25px;
 }
