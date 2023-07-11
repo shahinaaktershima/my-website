@@ -8,10 +8,14 @@
 }
 .banner-content{
     width: 600px;
-    margin-left: 250px;
-    margin-right: 40px;
     
     
+}
+.banner-box{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    gap: 200px;
 }
 .banner-title{
     font-size: 60px;
@@ -31,10 +35,8 @@
     margin-top: 10px;
 }
 .banner-img{
-    width: 665px;
-    height: 800px;
-    margin-left: 50px;
-    padding: 50px 150px 0px 20px;
+    width: 350px;
+    height: 500px;
 }
 /* our featured flowers section */
 .flower-content{
@@ -133,19 +135,24 @@
     justify-content: space-around;
     background-color: rgb(245, 231, 234);
     margin-bottom: 100px;
+
+}
+.hot-content{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    gap: 500px;
+    padding: 110px;
 }
  .deal-content{ 
-    max-width: 800px;
     text-align: center;
-     padding: 70px 150px 200px 200px;
-     margin:80px 10px 0px 50px;
+    margin-top: 60px;
+    
     
 }
 .deal-img{
     height: 400px;
     width: 330px;
-    padding-right: 350px;
-    padding-top: 90px;
 }
 .hot-deal-text{
     color: rgb(235, 11, 11);
@@ -212,8 +219,15 @@
     max-width: 1250px;
     height: 500px;
     margin: 0 auto;
+   
+}
+.rose-section{
     display: flex;
     justify-content: space-around;
     background-color: bisque;
-    gap: 130px;
+    gap: 150px;
+}
+.rose-description{
+    margin-top: 0;
+    padding-bottom: 10px;
 }
