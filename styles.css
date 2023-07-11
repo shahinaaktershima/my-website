@@ -9,7 +9,7 @@
 .banner-content{
     height: 400px;
     width: 500px;
-    padding:50px 0px 120px 250px;
+    padding:50px 0px 120px 300px;
 }
 .banner-title{
     font-size: 60px;
@@ -135,7 +135,7 @@
  .deal-content{ 
     max-width: 800px;
     text-align: center;
-     padding: 200px 150px 200px 150px;
+     padding: 200px 150px 200px 200px;
      margin:0px 10px 0px 150px;
     
 }
