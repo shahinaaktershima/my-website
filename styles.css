@@ -50,7 +50,7 @@
 }
 .flower-image{
     display: flex;
-    width: 1450px;
+    width: 1200px;
     margin: 0 auto;
     gap: 70px;
     align-items: center;
@@ -159,4 +159,28 @@
 .flower-style{
     height: 340px;
     width: 300px;
+}
+/* background image section */
+.image-content{
+    max-width: 1240px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-size: cover;
+}
+.mail-box{ 
+    width: 600px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+/* input[type="email"]{ */
+    max-width: 2000px;
 }
