@@ -1,7 +1,7 @@
 .banner{
     width: 100%;
-    margin-top: 0;
-    background-color:rgb(233, 202, 207);
+    margin: 0;
+    background-color:rgb(241, 226, 229);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -129,20 +129,20 @@
     height: 650px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(243, 217, 222);
+    background-color: rgb(245, 231, 234);
     margin-bottom: 100px;
 }
  .deal-content{ 
     max-width: 800px;
     text-align: center;
      padding: 200px 150px 200px 150px;
-     margin:0px 150px 0px 150px;
+     margin:0px 10px 0px 150px;
     
 }
 .deal-img{
     height: 400px;
     width: 330px;
-    padding-right: 290px;
+    padding-right: 350px;
     padding-top: 90px;
 }
 .hot-deal-text{
@@ -171,6 +171,7 @@
     padding-top: 100px;
     background-image: url("./Flower Asset/Rectangle 9.png");
     background-size: cover;
+    margin-bottom: 100px;
 }
 .mail-box{ 
     width: 600px;
@@ -181,6 +182,37 @@
     font-size: 15px;
     padding-left: 30px;
 }
-/* input[type="email"]{ */
-    max-width: 2000px;
+/* footer section */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    padding-top: 125px;
+    margin-top: 100px;
+}
+.foot-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.foot{
+    color: rgb(238, 95, 95);
+}
+.foot-text{
+    color: rgb(224, 179, 179);
+}
+.foot-desciption{
+    color: rgb(121, 125, 128);
+}
+/* my section */
+.rose-flower{
+    margin-top: 100px;
+    max-width: 1250px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    gap: 130px;
 }
